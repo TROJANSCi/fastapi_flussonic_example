@@ -1,0 +1,19 @@
+{
+  # This script gets Flussonic address from a query. String 'http://flussonic-ip'
+  "flussonic_host": "http://127.0.0.1",
+
+  # The key from flussonic.conf file. KEEP IT IN SECRET.
+  "secretkey": "SECRET",
+
+  # The link will become invalid in 3 hours.
+  "life_time": 10800,
+
+  # This script gets the stream name from a query. string (script.php?stream=bbc)
+  "stream_path": "vod/",
+
+  # (v20.07) Set ipaddr = 'no_check_ip' if you want to exclude IP address of client devices from checking
+  "ipaddr": true,
+
+  # Allowed time desync between Flussonic and hosting servers in seconds.
+  "desync": 300
+}
