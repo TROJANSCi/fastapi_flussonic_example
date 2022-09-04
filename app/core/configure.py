@@ -12,5 +12,3 @@ def get_setting(key: str = None) -> Union[str, int, None]:
             return hjson.load(set_file, encoding='utf-8').get(key)
     finally:
         set_file.close()
-
-print(SETTINGS)
