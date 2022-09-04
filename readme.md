@@ -9,11 +9,11 @@ Run
 ```sh
 $ docker-compose up -d --build
 ```
-+ FastAPI docs: http://127.0.0.1:8000/docs
++ [FastAPI](https://fastapi.tiangolo.com/) docs: http://127.0.0.1:8000/docs
     * [Playerjs](https://playerjs.com/) url: http://127.0.0.1:8000/playerjs/{video}
     * Iframes url: http://127.0.0.1:8000/embed/{video}
 
-* Flussonic url: http://127.0.0.1:80
+* [Flussonic](https://flussonic.com/) url: http://127.0.0.1:80
 
 ---
 
